@@ -1,3 +1,4 @@
 import {BuyCakeAction} from './cake/CakeActions';
+import {FetchUsers} from './user/UserActions';
 
-export default BuyCakeAction;
+export {BuyCakeAction, FetchUsers}

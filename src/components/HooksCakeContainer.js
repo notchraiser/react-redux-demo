@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import BuyCakeAction from '../redux';
+import {BuyCakeAction} from '../redux';
 
 function HooksCakeContainer() {
     const [orderCake, setOrderCake] = useState(0);
